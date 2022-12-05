@@ -5,7 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="css/style.css" />
     <script src="js/main.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <h1 class="title">Kéo búa bao nè!!!</h1>
+    </header>
+
+    <main class="container">
+      <artical class="rule">
+        <h3>Luật chơi</h3>
+        <p>Ai giành 5 điểm trước sẽ chiến thắng</p>
+      </artical>
+      <article class="play">
+        <h2 class="round-result">Bắt đầu</h2>
+        <h3 class="round-choose">Chọn đi nào!</h3>
+        <div class="choose">
+          <button data-choice="scissors" class="btn">✌️</button>
+          <button data-choice="rock" class="btn">✊</button>
+          <button data-choice="paper" class="btn">🖐️</button>
+        </div>
+        <div class="score">
+          <div class="score-now">You: 0</div>
+          <div class="score-now">Computer: 0</div>
+        </div>
+        <div class="result"></div>
+        <button class="btn-again">Play again</button>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <p>The DiDi project 2022</p>
+    </footer>
+  </body>
 </html>
